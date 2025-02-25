@@ -1,0 +1,79 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.screen{
+    display: flex;
+    height: 100vh;
+}
+
+.leftside{
+    width: 80%;
+    background-image: url(/assets/images/homem-azul.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+fieldset legend h1{
+    color: #fff;
+   
+}
+fieldset{
+    
+}
+.rightside label{
+    color: #fff;
+    display: block;
+    margin-bottom: 4px;
+    font-size: 20px;
+
+    
+}
+.rightside input{
+    width: 100%;
+    padding: 9px;
+    border-radius: 5px;
+    outline: 0;
+    margin-bottom: 20px;
+}
+
+.rightside{
+    padding: 50px;
+    width: 550px;
+    background-color: black;
+}
+input[type="submit"] {
+    background-color: #007bff; /* Cor de fundo */
+    color: white; /* Cor do texto */
+    font-size: 16px; /* Tamanho da fonte */
+    cursor: pointer; /* Cursor de mão ao passar o mouse */
+    width: 100%; /* Para ocupar o mesmo tamanho dos inputs */
+    padding: 10px; /* Ajuste de espaçamento */
+    border: none; /* Remove borda padrão */
+    border-radius: 5px; /* Mantém o design arredondado */
+}
+
+input[type="submit"]:hover {
+    background-color: #0056b3; /* Efeito ao passar o mouse */
+}
+.possuiCadastro span{
+    color: #fff;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.fazerLogin{
+    margin-top: 10px;
+}
+.fazerLogin a{
+    margin-top: 10px;
+    text-decoration-line: none;
+    color: #0056b3;
+    font-size: 20px;
+}
+
+.fazerLogin a:hover{
+    color: #007bff;
+}
