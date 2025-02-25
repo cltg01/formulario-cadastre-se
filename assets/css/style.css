@@ -12,7 +12,7 @@ body{
 
 .leftside{
     width: 80%;
-    background-image: url(/images/homem-azul.jpg);
+    background-image: url(images/homem-azul.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
